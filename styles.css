@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Century Gothic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background: url("./Space_Stars-5016df85-c9c4-310d-87d7-6981cbe12886.jpg") no-repeat;
+    background-size: cover;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+}
+
+.clock{
+    height: 30rem;
+    width: 30rem;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 0 2rem 0.5rem #fff;
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 400px) {
+    :root{
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    :root{
+        font-size: 10px;
+    }
+}
